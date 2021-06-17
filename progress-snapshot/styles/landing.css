@@ -1,3 +1,4 @@
+
 @import "navbar.css";
 @import "footer.css";
 
@@ -13,5 +14,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+#blurb {
+    font-size: 15px;
+    display: flex;
+    text-align: center;
 }
 
