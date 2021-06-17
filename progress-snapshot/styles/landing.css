@@ -1,0 +1,17 @@
+@import "navbar.css";
+@import "footer.css";
+
+/* landing page content positioning */
+.landing_main {
+    display: flex;
+    flex-flow: column;
+
+}
+
+.landing_text_container {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+

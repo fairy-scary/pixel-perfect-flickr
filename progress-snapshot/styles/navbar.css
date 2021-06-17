@@ -1,0 +1,52 @@
+
+/* nav background and position */
+.navbar_container {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,.25);
+    z-index: 0;   
+}
+
+/* logo and search bar */
+#logo {
+    height: 40px;  
+    z-index: 2; 
+}
+
+.search_bar {
+    background-color: whitesmoke ;
+    opacity: 75%;
+    height: 33px;
+    width: 605px;
+    z-index: 2;
+}
+
+/* auth section */
+.auth_links {
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav_button {
+    opacity: 100%;
+    height: 33px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login {
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    
+}
+
+#signup {
+    background-color: whitesmoke;
+    font-size: 14px;
+    color: black;
+}
