@@ -12,9 +12,8 @@ changeBackground = () => {
     const contentDiv = document.getElementsByClassName("content")[0];
     const bg = images[Math.floor(Math.random() * images.length)];
     //console.log(contentDiv.style) //*see the HTML DOM Style Object(under "style")
-    //let content = document.querySelectorAll("content")[0]
+    
     contentDiv.style.backgroundImage = bg
-    //console.log(bg)
 
 }
 
