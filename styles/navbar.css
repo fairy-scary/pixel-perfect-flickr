@@ -27,6 +27,7 @@
     justify-content: flex-start;
     flex-direction: row;
     padding: 0px 0px 0px 5px;
+    border-radius: 3px;
     color: #6D6C6A;
     align-content: stretch;
     flex-wrap: nowrap;

@@ -3,14 +3,17 @@
 @import "footer.css";
 
 /* landing page content positioning */
-.content {
-    width: 100%;
-    height: 95vh;
-    margin-top: 0;
+body {
     background: url(../assets/lifeaquatic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.content {
+    width: 100%;
+    height: 95vh;
+    margin-top: 0;   
 }
 
 .landing_main {
