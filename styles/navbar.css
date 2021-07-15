@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0,0,0,.45);
+    background-color: rgba(0,0,0,.35);
     z-index: 0;   
 }
 
@@ -18,11 +18,24 @@
 }
 
 .search_bar {
-    background-color: whitesmoke ;
+    background-color: whitesmoke;
     opacity: 75%;
     height: 33px;
     width: 605px;
     z-index: 2;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 0px 0px 0px 5px;
+    color: #6D6C6A;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.search_placeholder {
+    font-size: 13px;
+    padding: 0px 0px 0px 10px;
 }
 
 /* auth section */
